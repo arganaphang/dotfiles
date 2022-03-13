@@ -1,0 +1,27 @@
+import:
+  - ~/.config/alacritty/colors.yml
+  - ~/.config/alacritty/keys.yml
+window:
+  padding:
+   x: 6
+   y: 6
+font:
+  normal:
+    family: Hack
+    style: Regular
+  bold:
+    family: Hack
+    style: Bold
+  italic:
+    family: Hack
+    style: Italic
+  bold_italic:
+    family: Hack
+    style: Bold Italic
+  size: 14.0
+  #offset:
+  #  x: 0
+  #  y: 0
+  #glyph_offset:
+  #  x: 0
+  #  y: 0
