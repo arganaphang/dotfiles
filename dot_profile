@@ -1,0 +1,7 @@
+
+. "$HOME/.cargo/env"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export GOPATH=$HOME/Dev/go
+export PATH=$GOPATH/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
