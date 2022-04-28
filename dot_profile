@@ -1,9 +1,10 @@
 
 . "$HOME/.cargo/env"
 eval "$(/opt/homebrew/bin/brew shellenv)"
-# eval (ssh-agent -c) > /dev/null
-# ssh-add ~/.ssh/moladin ? /dev/null
-# ssh-add ~/.ssh/dev ? /dev/null
+
+eval "$(ssh-agent)" > /dev/null
+ssh-add ~/.ssh/moladin 2> /dev/null
+ssh-add ~/.ssh/dev 2> /dev/null
 
 export GOPATH=$HOME/Dev/go
 export PATH=$GOPATH/bin:$PATH
