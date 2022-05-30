@@ -1,5 +1,6 @@
 fenv source ~/.profile
 starship init fish | source
+zoxide init fish | source
 
 alias y="yarn"
 alias ya="yarn add"
@@ -11,4 +12,7 @@ if type -q exa
   alias ll "exa -l -g --icons"
   alias lla "ll -a"
 end
-fish_add_path /Users/arga/.spicetify
+
+# pnpm
+set -gx PNPM_HOME "/Users/arga/Library/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH

@@ -6,6 +6,8 @@ eval "$(ssh-agent)" > /dev/null
 ssh-add ~/.ssh/moladin 2> /dev/null
 ssh-add ~/.ssh/dev 2> /dev/null
 
+STARSHIP_LOG=error
+
 export GOPATH=$HOME/Dev/go
 export PATH=$GOPATH/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
