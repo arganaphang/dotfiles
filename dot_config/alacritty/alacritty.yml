@@ -1,5 +1,5 @@
 import:
-  - ~/.config/alacritty/colors.yml
+  - ~/.config/alacritty/color_ayu.yml
   - ~/.config/alacritty/keys.yml
 window:
   opacity: .97

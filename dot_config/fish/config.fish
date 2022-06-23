@@ -2,6 +2,8 @@ fenv source ~/.profile
 starship init fish | source
 zoxide init fish | source
 
+alias vim="nvim"
+
 alias y="yarn"
 alias ya="yarn add"
 alias yt="yarn test"
