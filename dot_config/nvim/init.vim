@@ -10,7 +10,7 @@ Plug 'ayu-theme/ayu-vim'
 
 call plug#end()
 
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=2 shiftwidth=2 expandtab
 
 if (empty($TMUX))
   if (has("nvim"))
