@@ -1,5 +1,5 @@
 import:
-  - ~/.config/alacritty/colors.yml
+  - ~/.config/alacritty/color_ayu.yml
   - ~/.config/alacritty/keys.yml
 window:
   padding:
@@ -19,9 +19,3 @@ font:
     family: Hack
     style: Bold Italic
   size: 14.0
-  # offset:
-  #  x: 0
-  #  y: 0
-  # glyph_offset:
-  #  x: 0
-  #  y: 0
