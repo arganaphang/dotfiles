@@ -1,5 +1,6 @@
 fenv source ~/.profile
 starship init fish | source
+direnv hook fish | source
 
 alias y="yarn"
 alias ya="yarn add"
@@ -11,4 +12,3 @@ if type -q exa
   alias ll "exa -l -g --icons"
   alias lla "ll -a"
 end
-fish_add_path /Users/arga/.spicetify
