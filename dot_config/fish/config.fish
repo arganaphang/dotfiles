@@ -14,7 +14,7 @@ alias gmi="go mod init"
 alias dcu="docker-compose up -d"
 alias dcd="docker-compose down --remove-orphans"
 alias dcps="docker-compose ps"
-alias dclog="docker-compose log"
+alias dclog="docker-compose logs"
 
 if type -q exa
   alias ll "exa -l -g --icons"
