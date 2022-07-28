@@ -20,3 +20,8 @@ if type -q exa
   alias ll "exa -l -g --icons"
   alias lla "ll -a"
 end
+
+# pnpm
+set -gx PNPM_HOME "/Users/arga/Library/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH
+# pnpm end
