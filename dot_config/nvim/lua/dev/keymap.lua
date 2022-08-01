@@ -6,7 +6,6 @@ vim.cmd [[
     return !col || getline('.')[col - 1]  =~ '\s'
   endfunction
 
-  " Insert <tab> when previous text is space, refresh completion if not.
   inoremap <silent><expr> <TAB>
         \ coc#pum#visible() ? coc#pum#next(1):
         \ <SID>check_back_space() ? "\<Tab>" :
