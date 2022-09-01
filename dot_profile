@@ -6,6 +6,8 @@ eval "$(ssh-agent)" > /dev/null
 ssh-add ~/.ssh/moladin 2> /dev/null
 ssh-add ~/.ssh/dev 2> /dev/null
 
+export DOCKER_HOST=unix:///$HOME/.local/share/containers/podman/machine/podman-machine-default/podman.sock
+
 export GOPATH=$HOME/Dev/go
 export VOLTA_HOME=$HOME/.volta
 export LIBREOFFICENAME=/opt/homebrew/bin/soffice

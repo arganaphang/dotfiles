@@ -11,11 +11,11 @@ alias ys="yarn start"
 alias yd="yarn dev"
 
 alias gmi="go mod init"
+alias docker="podman"
 alias dcu="docker-compose up -d"
 alias dcd="docker-compose down --remove-orphans"
 alias dcps="docker-compose ps"
 alias dclog="docker-compose logs"
-alias sail="./vendor/bin/sail"
 
 if type -q exa
   alias ll "exa -l -g --icons"
