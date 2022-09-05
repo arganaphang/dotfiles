@@ -11,7 +11,6 @@ alias ys="yarn start"
 alias yd="yarn dev"
 
 alias gmi="go mod init"
-alias docker="podman"
 alias dcu="docker-compose up -d"
 alias dcd="docker-compose down --remove-orphans"
 alias dcps="docker-compose ps"
