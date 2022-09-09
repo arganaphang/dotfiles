@@ -2,6 +2,7 @@ fenv source ~/.profile
 starship init fish | source
 direnv hook fish | source
 zoxide init fish | source
+status --is-interactive; and rbenv init - fish | source
 
 alias vim="nvim"
 alias y="yarn"
