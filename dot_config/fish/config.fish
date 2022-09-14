@@ -3,6 +3,11 @@ starship init fish | source
 direnv hook fish | source
 zoxide init fish | source
 
+alias c="clear"
+
+alias k="kubectl"
+alias h="helm"
+
 alias vim="nvim"
 alias y="yarn"
 alias ya="yarn add"
