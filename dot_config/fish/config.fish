@@ -3,10 +3,10 @@ starship init fish | source
 direnv hook fish | source
 zoxide init fish | source
 
-alias c="clear"
-
 alias k="kubectl"
 alias h="helm"
+
+alias c="code"
 
 alias vim="nvim"
 alias p="pnpm"
