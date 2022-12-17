@@ -1,3 +1,3 @@
 require("lightline").setup({
-    colorscheme: 'catppuccin' 
+    colorscheme = "catppuccin"
 })
