@@ -4,9 +4,6 @@
 	name = "Argana Phangquestian"
 	email = "arganaphangquestian@gmail.com"
 	defaultBranch = main
-[user]
-	email = arganaphangquestian@gmail.com
-	name = arganaphangquestian
 [pull]
 	rebase = true
 [color]
