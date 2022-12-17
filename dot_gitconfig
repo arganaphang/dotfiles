@@ -1,3 +1,5 @@
+[core]
+    editor = nvim
 [init]
 	name = "Argana Phangquestian"
 	email = "arganaphangquestian@gmail.com"
@@ -5,12 +7,6 @@
 [user]
 	email = arganaphangquestian@gmail.com
 	name = arganaphangquestian
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 [pull]
 	rebase = true
 [color]
