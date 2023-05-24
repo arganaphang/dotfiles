@@ -13,3 +13,5 @@
 	ui = true
 [includeIf "gitdir:~/Project/"]
     path = ~/Project/.gitconfig
+[url "ssh://git@bitbucket.org/"]
+	insteadOf = https://bitbucket.org/
