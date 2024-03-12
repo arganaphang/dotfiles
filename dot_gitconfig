@@ -11,7 +11,7 @@
 	rebase = true
 [color]
 	ui = true
-[includeIf "gitdir:~/Project/"]
-    path = ~/Project/.gitconfig
+[includeIf "gitdir:~/Code/eFishery/"]
+	path = ~/Code/eFishery/.gitconfig
 [url "ssh://git@bitbucket.org/"]
 	insteadOf = https://bitbucket.org/
