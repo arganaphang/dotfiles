@@ -1,7 +1,6 @@
 fenv source ~/.profile
 starship init fish | source
 zoxide init fish | source
-direnv hook fish | source
 
 alias k="kubectl"
 alias h="helm"
