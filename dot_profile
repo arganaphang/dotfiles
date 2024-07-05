@@ -4,7 +4,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # eval "$(ssh-agent)" > /dev/null
 # ssh-add ~/.ssh/dev 2> /dev/null
 
-export FLYCTL_INSTALL="/Users/argana/.fly"
 export GOPATH=$HOME/Dev/go
 export VOLTA_HOME=$HOME/.volta
 export PNPM_HOME=$HOME/Library/pnpm
@@ -18,5 +17,4 @@ export PATH=$HOME/.bun/bin:$PATH
 export PATH=$FLUTTER_HOME/bin:$PATH
 export DENO_INSTALL=$HOME/.deno
 export PATH=$DENO_INSTALL/bin:$PATH
-export PATH="$FLYCTL_INSTALL/bin:$PATH"
 export PATH="$PATH:$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
