@@ -15,3 +15,5 @@
 	path = ~/Code/eFishery/.gitconfig
 [url "ssh://git@bitbucket.org/"]
 	insteadOf = https://bitbucket.org/
+[push]
+	autoSetupRemote = true
