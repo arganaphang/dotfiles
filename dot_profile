@@ -4,6 +4,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # eval "$(ssh-agent)" > /dev/null
 # ssh-add ~/.ssh/dev 2> /dev/null
 
+export C3PATH=$HOME/Dev/c3
 export GOPATH=$HOME/Dev/go
 export VOLTA_HOME=$HOME/.volta
 export PNPM_HOME=$HOME/Library/pnpm
@@ -11,6 +12,7 @@ export FLUTTER_HOME=$HOME/Dev/flutter
 export PATH=$PNPM_HOME:$PATH
 export PATH=$VOLTA_HOME/bin:$PATH
 export PATH=$GOPATH/bin:$PATH
+export PATH=$C3PATH:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.poetry/bin:$PATH
 export PATH=$HOME/.bun/bin:$PATH
