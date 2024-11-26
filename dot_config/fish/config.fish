@@ -18,3 +18,21 @@ alias dcps="docker-compose ps"
 alias dclog="docker-compose logs"
 alias ll="exa -l -g --icons"
 alias lla="ll -a"
+
+function __check_nvmrc --on-variable PWD --description 'check .nvmrc on pwd change and run volta install'
+    status --is-command-substitution; and return
+
+    set -l dir (pwd)
+
+    while not test "$dir" = ''
+        set nvmrc_file "$dir/.nvmrc"
+
+        if test -e "$nvmrc_file"
+            set nodeversion (cat $nvmrc_file)
+            volta install node@$nodeversion
+            break
+        end
+
+        set dir (string split -r -m1 / $dir)[1]
+    end
+end
