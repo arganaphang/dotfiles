@@ -15,7 +15,7 @@ y = 6
 size = 14
 
 [font.normal]
-family = "Hack Nerd Font"
+family = "Hack Nerd Font Mono"
 style = "Regular"
 
 [font.bold]

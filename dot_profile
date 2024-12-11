@@ -21,3 +21,4 @@ export PATH=$FLUTTER_HOME/bin:$PATH
 export DENO_INSTALL=$HOME/.deno
 export PATH=$DENO_INSTALL/bin:$PATH
 export PATH="$PATH:$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
+export PATH="$PATH:$HOME/Library/Application Support/Herd/bin"
