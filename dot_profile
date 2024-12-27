@@ -5,6 +5,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # eval "$(ssh-agent)" > /dev/null
 # ssh-add ~/.ssh/dev 2> /dev/null
 
+export XDG_RUNTIME_DIR=$HOME/.xdg_runtime # fzf-lua https://github.com/ibhagwan/fzf-lua/issues/1243#issuecomment-2554289014
+
 export GOPATH=$HOME/Dev/go
 export VOLTA_HOME=$HOME/.volta
 export PNPM_HOME=$HOME/Library/pnpm
